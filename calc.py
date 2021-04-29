@@ -14,6 +14,7 @@ def is_integer(s):
                 return False
         return True
 
+
 def add(a, b):
     return a + b
 
@@ -27,8 +28,7 @@ def mult(a, b):
 
 
 def div(a, b):
-    return a / b
-
-  
-  
-
+    if b == 0:
+        return 0
+    else:
+        return a / b
